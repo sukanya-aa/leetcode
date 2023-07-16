@@ -43,3 +43,16 @@ Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 '''
+
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if len(nums) < 2:
+            return len(nums)         #if len of nums is 0 or 1, there are no duplicates. so return len of nums.
+        i = 0                        #slow-runner that points to the last non-duplicate element in the list.
+        for j, val in enumerate(nums):
+            if val == nums[i]:
+                continue             #continue to next iteration to skip processing the duplicated element.
+            i += 1
+            if i != j:
+                #***********************
+            
