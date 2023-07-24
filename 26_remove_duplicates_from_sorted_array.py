@@ -46,13 +46,10 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        if len(nums) < 2:
-            return len(nums)         #if len of nums is 0 or 1, there are no duplicates. so return len of nums.
-        i = 0                        #slow-runner that points to the last non-duplicate element in the list.
-        for j, val in enumerate(nums):
-            if val == nums[i]:
-                continue             #continue to next iteration to skip processing the duplicated element.
-            i += 1
-            if i != j:
-                #***********************
-            
+        left = 1      #Left pointer for iterating over the array whenever the current element and its prev element are not same, this pointer points the place to store unique element.
+        for i in range(1, len(nums)):
+            if nums[i] != nums[i-1]:
+                nums[left] = nums[i]
+                left += 1
+        
+        return left
