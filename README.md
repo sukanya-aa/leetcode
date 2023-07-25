@@ -5,6 +5,7 @@ Leetcode practice problems in Python.
 | ------ | ------ | ------ | ------ | ------ |
 | 1 | [Two Sum] | Easy | [1_two_sum.py]
 | 26 | [Remove Duplicates from Sorted Array] | Easy | [26_remove_duplicates_from_sorted_array.py] | [Remove Duplicates from Sorted Array - Leetcode 26 - Python] |
+| 70 | [Climbing Stairs] | Easy | [70_climbing_stairs.py] | 
 | 445 | [Add Two Numbers II] | Medium | [445_add_two_numbers_II.py] | 
 
 
@@ -16,5 +17,7 @@ Leetcode practice problems in Python.
 [Remove Duplicates from Sorted Array - Leetcode 26 - Python]: <https://www.youtube.com/watch?v=DEJAZBq0FDA> 
 [Add Two Numbers II]: <https://leetcode.com/problems/add-two-numbers-ii/description/>
 [445_add_two_numbers_II.py]: <https://github.com/sukanya-aa/leetcode/blob/main/445_add_two_numbers_II.py>
+[Climbing Stairs]: <https://leetcode.com/problems/climbing-stairs/>
+[70_climbing_stairs.py]: <https://github.com/sukanya-aa/leetcode/blob/main/70_climbing_stairs.py>
 
 
